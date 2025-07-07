@@ -20,7 +20,7 @@ services:
     build: ./Backend
     container_name: Backend3
     ports:
-      - "3204:3042"
+      - "3204:3204"
     depends_on:
       - postgres
     networks:
