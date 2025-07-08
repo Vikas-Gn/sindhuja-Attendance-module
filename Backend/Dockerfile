@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Expose port
-EXPOSE 3042
+EXPOSE 3204
 
 # Start the server
 CMD ["node", "server.js"]
